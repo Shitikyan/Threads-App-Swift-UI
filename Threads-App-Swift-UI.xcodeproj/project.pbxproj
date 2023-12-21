@@ -57,6 +57,9 @@
 		8BEC751F2B348C2600D87585 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC751E2B348C2600D87585 /* AuthService.swift */; };
 		8BEC75232B34945900D87585 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC75222B34945900D87585 /* ContentViewModel.swift */; };
 		8BEC75252B3497C700D87585 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC75242B3497C700D87585 /* LoginViewModel.swift */; };
+		8BEC75272B349CA500D87585 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC75262B349CA500D87585 /* User.swift */; };
+		8BEC75292B34A21F00D87585 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC75282B34A21F00D87585 /* UserService.swift */; };
+		8BEC752D2B34A36B00D87585 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC752C2B34A36B00D87585 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +87,9 @@
 		8BEC751E2B348C2600D87585 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8BEC75222B34945900D87585 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		8BEC75242B3497C700D87585 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8BEC75262B349CA500D87585 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8BEC75282B34A21F00D87585 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		8BEC752C2B34A36B00D87585 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,7 @@
 		8B6737522B3475640042AB00 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8BEC752A2B34A31100D87585 /* ViewModel */,
 				8BBCB62B2B34834C0044266D /* EditProfile */,
 				8B6737532B34756C0042AB00 /* View */,
 			);
@@ -249,6 +256,7 @@
 		8B8F90302B34671A002A30BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8BEC75262B349CA500D87585 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,6 +264,7 @@
 		8B8F90312B34672B002A30BD /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				8BEC75282B34A21F00D87585 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -402,6 +411,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8BEC752A2B34A31100D87585 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC752C2B34A36B00D87585 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,6 +528,7 @@
 				8BEC751F2B348C2600D87585 /* AuthService.swift in Sources */,
 				8BBCB62E2B3483660044266D /* EditProfileView.swift in Sources */,
 				8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */,
+				8BEC75292B34A21F00D87585 /* UserService.swift in Sources */,
 				8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */,
 				8B6737512B3475570042AB00 /* ActivityView.swift in Sources */,
 				8BEC75252B3497C700D87585 /* LoginViewModel.swift in Sources */,
@@ -519,12 +537,14 @@
 				8B67374D2B34751E0042AB00 /* CreateThreadView.swift in Sources */,
 				8BBCB62A2B3481B80044266D /* ProfileThreadFilter.swift in Sources */,
 				8BEC75232B34945900D87585 /* ContentViewModel.swift in Sources */,
+				8BEC752D2B34A36B00D87585 /* ProfileViewModel.swift in Sources */,
 				8B6737412B3472D00042AB00 /* ThreadsTabView.swift in Sources */,
 				8BB971712B34628000CCB53E /* ContentView.swift in Sources */,
 				8BB9716F2B34628000CCB53E /* Threads_App_Swift_UIApp.swift in Sources */,
 				8B6737492B3474D80042AB00 /* ExploreView.swift in Sources */,
 				8B6737552B3475770042AB00 /* ProfileView.swift in Sources */,
 				8B8F90392B346E21002A30BD /* RegistrationView.swift in Sources */,
+				8BEC75272B349CA500D87585 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
