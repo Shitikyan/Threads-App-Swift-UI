@@ -53,6 +53,8 @@
 		8BEC75152B34890400D87585 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8BEC75142B34890400D87585 /* FirebaseRemoteConfigSwift */; };
 		8BEC75172B34890400D87585 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8BEC75162B34890400D87585 /* FirebaseStorage */; };
 		8BEC75192B34890400D87585 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8BEC75182B34890400D87585 /* FirebaseStorageCombine-Community */; };
+		8BEC751D2B348B7300D87585 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC751C2B348B7300D87585 /* RegistrationViewModel.swift */; };
+		8BEC751F2B348C2600D87585 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC751E2B348C2600D87585 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		8BBCB62D2B3483660044266D /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		8BEC74E12B34889E00D87585 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BEC751C2B348B7300D87585 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		8BEC751E2B348C2600D87585 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +267,8 @@
 		8B8F90332B34674B002A30BD /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				8BEC751B2B348B4C00D87585 /* Service */,
+				8BEC751A2B348B4800D87585 /* ViewModel */,
 				8B8F90352B346778002A30BD /* View */,
 			);
 			path = Authentication;
@@ -356,6 +362,22 @@
 				8BBCB62D2B3483660044266D /* EditProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8BEC751A2B348B4800D87585 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC751C2B348B7300D87585 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BEC751B2B348B4C00D87585 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC751E2B348C2600D87585 /* AuthService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,7 +484,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6737452B3474AB0042AB00 /* FeedView.swift in Sources */,
+				8BEC751D2B348B7300D87585 /* RegistrationViewModel.swift in Sources */,
 				8B8F90372B346781002A30BD /* LoginView.swift in Sources */,
+				8BEC751F2B348C2600D87585 /* AuthService.swift in Sources */,
 				8BBCB62E2B3483660044266D /* EditProfileView.swift in Sources */,
 				8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */,
 				8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */,

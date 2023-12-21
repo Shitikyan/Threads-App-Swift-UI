@@ -23,7 +23,7 @@ struct Threads_App_Swift_UIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
