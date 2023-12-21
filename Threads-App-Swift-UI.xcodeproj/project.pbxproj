@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B8F90372B346781002A30BD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F90362B346781002A30BD /* LoginView.swift */; };
+		8B8F90392B346E21002A30BD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F90382B346E21002A30BD /* RegistrationView.swift */; };
+		8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F903B2B346F55002A30BD /* TextFieldsModifier.swift */; };
 		8BB9716F2B34628000CCB53E /* Threads_App_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9716E2B34628000CCB53E /* Threads_App_Swift_UIApp.swift */; };
 		8BB971712B34628000CCB53E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB971702B34628000CCB53E /* ContentView.swift */; };
 		8BB971732B34628100CCB53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB971722B34628100CCB53E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		8B8F90362B346781002A30BD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8B8F90382B346E21002A30BD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8B8F903B2B346F55002A30BD /* TextFieldsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsModifier.swift; sourceTree = "<group>"; };
 		8BB9716B2B34628000CCB53E /* Threads-App-Swift-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threads-App-Swift-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB9716E2B34628000CCB53E /* Threads_App_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threads_App_Swift_UIApp.swift; sourceTree = "<group>"; };
 		8BB971702B34628000CCB53E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 		8B8F90322B346738002A30BD /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8B8F903A2B346F4B002A30BD /* ViewModifiers */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -99,8 +104,17 @@
 			isa = PBXGroup;
 			children = (
 				8B8F90362B346781002A30BD /* LoginView.swift */,
+				8B8F90382B346E21002A30BD /* RegistrationView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8B8F903A2B346F4B002A30BD /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F903B2B346F55002A30BD /* TextFieldsModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		8BB971622B34627F00CCB53E = {
@@ -213,8 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8F90372B346781002A30BD /* LoginView.swift in Sources */,
+				8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */,
 				8BB971712B34628000CCB53E /* ContentView.swift in Sources */,
 				8BB9716F2B34628000CCB53E /* Threads_App_Swift_UIApp.swift in Sources */,
+				8B8F90392B346E21002A30BD /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
