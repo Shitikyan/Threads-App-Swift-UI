@@ -24,6 +24,7 @@
 		8BBCB6252B347CB30044266D /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6242B347CB30044266D /* CircularProfileImageView.swift */; };
 		8BBCB6272B347DE70044266D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6262B347DE70044266D /* UserCell.swift */; };
 		8BBCB62A2B3481B80044266D /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */; };
+		8BBCB62E2B3483660044266D /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB62D2B3483660044266D /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		8BBCB6242B347CB30044266D /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		8BBCB6262B347DE70044266D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		8BBCB62D2B3483660044266D /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		8B6737522B3475640042AB00 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8BBCB62B2B34834C0044266D /* EditProfile */,
 				8B6737532B34756C0042AB00 /* View */,
 			);
 			path = Profile;
@@ -282,6 +285,22 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		8BBCB62B2B34834C0044266D /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				8BBCB62C2B34835B0044266D /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		8BBCB62C2B34835B0044266D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BBCB62D2B3483660044266D /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,6 +373,7 @@
 			files = (
 				8B6737452B3474AB0042AB00 /* FeedView.swift in Sources */,
 				8B8F90372B346781002A30BD /* LoginView.swift in Sources */,
+				8BBCB62E2B3483660044266D /* EditProfileView.swift in Sources */,
 				8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */,
 				8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */,
 				8B6737512B3475570042AB00 /* ActivityView.swift in Sources */,
