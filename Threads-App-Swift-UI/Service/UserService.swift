@@ -5,8 +5,10 @@
 //  Created by Solicy Ios on 21.12.23.
 //
 
+import SwiftUI
 import Firebase
-import FirebaseFirestoreSwift
+import FirebaseFirestore
+
 class UserService {
     @Published var currentUser: User?
     
@@ -33,5 +35,16 @@ class UserService {
     
     func reset() {
         self.currentUser = nil
+    }
+    
+    @MainActor
+    func updateUserProfileImage(withImageUrl imageUrl: String) async throws {
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+
+        try await Firestore.firestore().collection("users").document(currentUid).updateData([
+            "profileImageURL" : imageUrl
+        ])
+        
+        self.currentUser?.profileImageUrl = imageUrl
     }
 }
