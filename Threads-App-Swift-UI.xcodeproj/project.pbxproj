@@ -20,6 +20,7 @@
 		8BB971712B34628000CCB53E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB971702B34628000CCB53E /* ContentView.swift */; };
 		8BB971732B34628100CCB53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB971722B34628100CCB53E /* Assets.xcassets */; };
 		8BB971762B34628100CCB53E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB971752B34628100CCB53E /* Preview Assets.xcassets */; };
+		8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6212B3478160044266D /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8BB971702B34628000CCB53E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BB971722B34628100CCB53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB971752B34628100CCB53E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BBCB6212B3478160044266D /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8B6737442B3474AB0042AB00 /* FeedView.swift */,
+				8BBCB6212B3478160044266D /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				8B6737452B3474AB0042AB00 /* FeedView.swift in Sources */,
 				8B8F90372B346781002A30BD /* LoginView.swift in Sources */,
 				8B8F903C2B346F55002A30BD /* TextFieldsModifier.swift in Sources */,
+				8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */,
 				8B6737512B3475570042AB00 /* ActivityView.swift in Sources */,
 				8B67374D2B34751E0042AB00 /* CreateThreadView.swift in Sources */,
 				8B6737412B3472D00042AB00 /* ThreadsTabView.swift in Sources */,
