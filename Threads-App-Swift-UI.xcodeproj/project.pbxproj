@@ -23,6 +23,7 @@
 		8BBCB6222B3478160044266D /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6212B3478160044266D /* ThreadCell.swift */; };
 		8BBCB6252B347CB30044266D /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6242B347CB30044266D /* CircularProfileImageView.swift */; };
 		8BBCB6272B347DE70044266D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6262B347DE70044266D /* UserCell.swift */; };
+		8BBCB62A2B3481B80044266D /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		8BBCB6212B3478160044266D /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		8BBCB6242B347CB30044266D /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		8BBCB6262B347DE70044266D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8B6737542B3475770042AB00 /* ProfileView.swift */,
+				8BBCB6292B3481B80044266D /* ProfileThreadFilter.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				8BBCB6252B347CB30044266D /* CircularProfileImageView.swift in Sources */,
 				8BBCB6272B347DE70044266D /* UserCell.swift in Sources */,
 				8B67374D2B34751E0042AB00 /* CreateThreadView.swift in Sources */,
+				8BBCB62A2B3481B80044266D /* ProfileThreadFilter.swift in Sources */,
 				8B6737412B3472D00042AB00 /* ThreadsTabView.swift in Sources */,
 				8BB971712B34628000CCB53E /* ContentView.swift in Sources */,
 				8BB9716F2B34628000CCB53E /* Threads_App_Swift_UIApp.swift in Sources */,
