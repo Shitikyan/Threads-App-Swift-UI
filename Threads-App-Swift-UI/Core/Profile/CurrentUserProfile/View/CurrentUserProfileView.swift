@@ -12,11 +12,6 @@ struct CurrentUserProfileView: View {
     @StateObject var viewModel = CurrentUserProfileViewModel()
     @State private var showEditProfile = false
     
-    private var filterBarWidth: CGFloat {
-        let count = CGFloat(ProfileThreadFilter.allCases.count)
-        return UIScreen.main.bounds.width / count - 16
-    }
-    
     private var currentUser: User? {
         return viewModel.currentUser
     }
@@ -43,7 +38,9 @@ struct CurrentUserProfileView: View {
                                     .stroke(Color(.systemGray4), lineWidth: 1)
                             }
                     }
-                    UserContentListView()
+                    if let user = currentUser {
+                        UserContentListView(user: user)
+                    }
                 }
             }
             .sheet(isPresented: $showEditProfile, content: {
